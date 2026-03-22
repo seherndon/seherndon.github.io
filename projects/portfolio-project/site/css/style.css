@@ -5,9 +5,9 @@ body {
     color: pink;
     font-size: 3em;
 }
-h1, h2, h3
+h1, h2, h3, h4, h5
 {
-    font-weight: 700;
+     font-family: "Cormorant Garamond", sans-serif;font-weight: 700;
 }
 header {
     background-color:wheat;
