@@ -1,5 +1,5 @@
 body {
-    font-family: "Cormorant Garamond", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 .bi {
     color: pink;
@@ -23,4 +23,4 @@ nav a{
     font-weight: bold;
 }
 nav a:hover {
-color:#FAEBEB
+color:#FAEBEB}
