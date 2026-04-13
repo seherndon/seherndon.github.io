@@ -2,8 +2,7 @@ body {
     background-color: #000;
     color: #F7F7F7;
     font-family: "Google Sans Flex", sans-serif;
-    font-size;
-    : 17px;
+    font-size: 17px;
     line-height: 1.6;
 }
 
@@ -16,8 +15,8 @@ h1 {
     font-size: 5em;
     font-weight: 300;
     color: #d3d3d3;
-    margin-top: 2em;
-    margin-bottom: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -31,8 +30,17 @@ header {
     text-align: center;
 }
 
+header img:{
+    margin-top: 2em;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container {
     width: 45%;
+    max-width : 45%;
 }
 
 .container-fluid {
@@ -48,7 +56,10 @@ section {
 section.photo-grid {
     display: block;
 }
-
+section.landsat-gallery{
+    display: block;
+    margin: 0;
+}
 main em {
     color: #919191;
     font-size: 0.75em;
@@ -59,12 +70,12 @@ main em {
     color: #919191;
     font-size: 0.75em;
     display: block;
-    margin-bottom: 0.75;
+    margin-bottom: 0.75em;
 }
 
 .photo-grid {
-    background-color: #F7F7F7;
-    color: #000;
+    background-color: #000;
+    color: #F7F7F7;
     padding: 3em 0;
     margin: 3em 0;
 }
@@ -75,6 +86,8 @@ main em {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #919191;
+
 }
 
 footer {
@@ -85,7 +98,7 @@ footer {
     padding: 2em 0;
 }
 
-@media (max-width: 550 px) {
+@media (max-width: 550px) {
     h1 {
         font-size: 3em;
     }
@@ -102,4 +115,33 @@ footer {
     .photo-grid {
         margin: 2em 0;
     }
+}
+.landsat-gallery{
+   margin:0;
+}
+
+
+
+.first-section .container-fluid{
+    width: 95% !important;
+}
+
+
+
+.photo-grid p{
+    font-style: normal;
+    font-size: 1em;
+    color:inherit;
+}
+
+.landsat-gallery .photo-grid{
+    background-color: #F7F7F7;
+    color: #000;
+}
+
+.landsat-gallery .photo-grid em{
+    color: #555;
+}
+.landsat-gallery .photo-grid p{
+    color: #000;
 }
