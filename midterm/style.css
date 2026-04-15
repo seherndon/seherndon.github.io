@@ -44,7 +44,7 @@ header img:{
 }
 
 .container-fluid {
-    width: 85%;
+    width: 70%;
 }
 
 section {
@@ -90,6 +90,36 @@ main em {
 
 }
 
+.landsat-gallery{
+   margin:0;
+}
+
+
+
+.first-section .container-fluid{
+    width: 80%
+}
+
+
+
+.photo-grid p{
+    font-style: normal;
+    font-size: 1em;
+    color: white;
+}
+
+.landsat-gallery .photo-grid{
+    background-color: #F7F7F7;
+    color: #000;
+}
+
+.landsat-gallery .photo-grid em{
+    color: #555;
+}
+.landsat-gallery .photo-grid p{
+    color: #000;
+}
+
 footer {
     color: #919191;
     font-size: 0.75em;
@@ -115,33 +145,3 @@ footer {
     .photo-grid {
         margin: 2em 0;
     }
-}
-.landsat-gallery{
-   margin:0;
-}
-
-
-
-.first-section .container-fluid{
-    width: 95% !important;
-}
-
-
-
-.photo-grid p{
-    font-style: normal;
-    font-size: 1em;
-    color:inherit;
-}
-
-.landsat-gallery .photo-grid{
-    background-color: #F7F7F7;
-    color: #000;
-}
-
-.landsat-gallery .photo-grid em{
-    color: #555;
-}
-.landsat-gallery .photo-grid p{
-    color: #000;
-}
